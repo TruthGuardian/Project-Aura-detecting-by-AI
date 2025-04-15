@@ -6,14 +6,14 @@ This project explores how beam halo signals—typically treated as noise—can r
 
 ## Code Overview
 
-### `kiii migire jato.py`
+### `DataGenerator.py`
 Beamline simulation code. Defines the `BL4SHaloCompositionGenerator` class which:
 - Generates particle beams with configurable composition
 - Simulates scattering (MCS), magnetic deflection, and detector responses
 - Models a 4-quadrant halo detector (hit flags and ADCs)
 - Outputs labeled datasets for ML training (including beam composition)
 
-### `model (1).py`
+### `model.py`
 Machine learning model code. Defines the `BeamHaloCompositionModel` class which:
 - Builds a multi-input neural network using Keras
 - Processes features from halo hits, ADCs, and derived asymmetries
