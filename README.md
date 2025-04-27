@@ -49,7 +49,8 @@ Beam halos primarily originate from **Multiple Coulomb Scattering (MCS)** where 
 When a beam hits thin foils or internal collimators, some particles are deflected at small angles, forming a scattered formation leading to halo creation.  
 The root-mean-square (RMS) scattering angle, \( \theta_0 \), is approximately given by:
 
-$ \theta_0 \approx \frac{13.6\ \text{MeV}}{\beta pc} \cdot z \cdot \sqrt{\frac{x}{X_0}} \left( 1 + 0.038 \ln\left(\frac{x}{X_0}\right) \right) \quad (\text{Eq. 1} $
+![Equation](https://latex.codecogs.com/png.image?\dpi{120} \theta_0 \approx \frac{13.6\ \mathrm{MeV}}{\beta pc} \cdot z \cdot \sqrt{\frac{x}{X_0}} \left( 1 + 0.038 \ln\left(\frac{x}{X_0}\right) \right))
+
 
 Where:
 - \( \beta = \frac{v}{c} \) is the particle’s velocity normalized to the speed of light
